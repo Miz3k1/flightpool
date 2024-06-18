@@ -1,0 +1,119 @@
+
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto.ttf);
+}
+@font-face {
+  font-family: Solena;
+  src: url(Solena-Regular.otf);
+}
+@media (min-width:1px) and (max-width:1430px) {
+  .slog{
+      display:none;
+  }
+}
+@media (min-width:1px) and (max-width:850px) {
+  .nav-links{
+      position: fixed;
+  }
+  .test-logo{
+    
+  }
+}
+.url{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+.url:active{
+  color:rgb(255, 255, 255);
+}
+.header {
+    background-color:white;
+    color: rgb(113, 186, 218);
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 50px;
+    border-bottom:2px solid rgba(86, 110, 121, 0.151)  ;
+  }
+  
+  .nav-links {
+    width: 520px;
+    background: rgb(113, 186, 218);
+    height: 39px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .nav-links button {
+    padding: 10px;
+    font-size: 16px;
+    background: rgb(113, 186, 218);
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-right: 0px;
+    border: none;
+  }
+  .nav-links button:active{
+    background-color: rgb(85, 149, 176);
+  }
+  .nav-links button:not(.blue) {
+    padding: 8px;
+    color:  rgb(113, 186, 218);
+    background: rgb(252, 254, 255);
+    border: 2px solid rgb(113, 186, 218);
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    border-right:none;
+    cursor: pointer;
+  }
+  button.test-nav-4:active {
+    color: rgb(85, 149, 176);
+  }
+
+.test-logo{
+  width: 20%;
+  margin-right: 10px;
+  margin-top: 40px;
+  padding: 0px;
+  }
+.slog {
+ text-align: center;
+ font-family: "Solena";
+ font-size: 37px;
+ font-weight: 500;
+}
+.footer{
+  background-color:white;
+  color:  rgb(85, 149, 176);
+  padding: auto;
+  display: flex;
+  font-family: "Roboto";
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 20px;
+  height: 100px;
+  border-top:2px solid rgba(86, 110, 121, 0.151)  ;
+}
+.test-0-phone{
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color:  rgb(85, 149, 176);
+}
+
+hr{
+  border: white;
+}

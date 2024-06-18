@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cssindex.css">
+    <link rel="stylesheet" href="registr.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="test-logo">
+            <img src="logo.svg" />
+        </div>
+        <h3 class="slog">Мы сближаем города, вы – живете там, где хотите!</h3>
+        <nav class="nav-links">
+          <form action = "vxod.html"> <button class="test-nav-4">Личный кабинет</button></form>
+          <button  class="blue" ><a href="index.html" class="url">Главная</button>
+          <button id="test-nav-1" class="blue"><a href="#action" class="url">Акции</a></button>
+          <button id="test-nav-2" class="blue" id="glav"><a href="bilet.html"  class="url">Поиск рейса</a></button>
+          <button class="blue" for="help"><a href="help" class="url">Помощь </a></button>
+         </nav>
+      </header>
+      <hr>
+      <div class="registr">
+        <h1>Регистрация на сайте</h1>
+        <form action="lichn.html">
+            <div class="registr_block">
+              <p><label class="test-2-last ">Фамилия: <input  type="text" placeholder="Введите Имя" maxlength="15" required="required"></label></p>
+              <p><label class="test-2-name ">Имя: <input  type="text" placeholder="Введите Фамилию" maxlength="15" required="required"></p></p>
+              <p><label class="test-2-doc ">Номер документа: <input  type="tel" placeholder="40 00 700000 " pattern="[0-9]{2} [0-9]{2} [0-9]{6}" required="required"></label></p>
+              <p><label class="test-2-phone ">Номер телефона: <input  type="tel" placeholder="+7 999 999 99-99 " pattern="[+]7 [0-9]{3} [0-9]{3} [0-9]{2}-[0-9]{2}" required="required"></label></p>
+              <p><label class="test-2-pass ">Пароль: <input  id="pass1" type="password" pattern="(?=.*\d)(?=.*[!$*]).{7,}"  placeholder="Введите пароль" maxlength="16" required="required"></label></p>
+              <div id="pass-1"></div>
+              <p><label class="test-2-pass2 ">Повторите пароль: <input class="modal-body-password-free" pattern="(?=.*\d)(?=.*[!$*]).{7,}"  id="pass2" type="password" placeholder="Введите пароль" maxlength="16" required="required"></label></p>
+              <div id="pass-2"></div>
+            <a href="lichn.html" class="vhod">
+              <button class="button">Зарегистрироваться</button>
+            </a>
+      </div></div>
+      <hr>
+      <script src="main.js"></script>
+      <footer class="footer" id="help">
+        <p>Телефон для связи:<a class="test-0-phone" href="tel:8 (800) 100-10-10">8 (800) 100-10-10</a></p>
+        <p >   Пенькова Светлана</p>
+    </footer>
+</body>
+</html>
+
+        
